@@ -1,5 +1,5 @@
 # docker-gcc-arm-none-eabi-builder
-Dockerfile for Alpine Linux based machine for building bare-metal Cortex-Mx applications with GCC
+Dockerfile for Ubuntu based machine for building bare-metal Cortex-Mx applications with GCC
 
 ## How to use this in the build process
 0. Open a terminal (console).
