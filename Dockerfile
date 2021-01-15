@@ -5,6 +5,9 @@ FROM ubuntu:18.04
 # projects
 RUN apt-get update && apt-get install -y wget make
 
+# add cpio
+RUN apt-get install cpio
+
 # get the toolchain
 RUN wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2019q4/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2 -O gcc-arm-none-eabi.tar.bz2
 
